@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		470562781E24539700B5C10C /* list.swift in Sources */ = {isa = PBXBuildFile; fileRef = 470562771E24539700B5C10C /* list.swift */; };
 		47E263891E14372F00112684 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E263881E14372F00112684 /* main.swift */; };
-		47E263901E14386A00112684 /* list.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E2638F1E14386A00112684 /* list.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,9 +24,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		470562771E24539700B5C10C /* list.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = list.swift; sourceTree = "<group>"; };
 		47E263851E14372F00112684 /* network_Explorer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = network_Explorer; sourceTree = BUILT_PRODUCTS_DIR; };
 		47E263881E14372F00112684 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		47E2638F1E14386A00112684 /* list.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = list.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +60,7 @@
 			isa = PBXGroup;
 			children = (
 				47E263881E14372F00112684 /* main.swift */,
-				47E2638F1E14386A00112684 /* list.swift */,
+				470562771E24539700B5C10C /* list.swift */,
 			);
 			path = network_Explorer;
 			sourceTree = "<group>";
@@ -124,7 +124,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				47E263891E14372F00112684 /* main.swift in Sources */,
-				47E263901E14386A00112684 /* list.swift in Sources */,
+				470562781E24539700B5C10C /* list.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,6 +254,7 @@
 				47E2638E1E14372F00112684 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
